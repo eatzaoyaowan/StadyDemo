@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--这是全屏的Activity-->
+    <style name="WindowFullscreenTheme" parent="Theme.Main">
+        <item name="android:windowFullscreen">true</item>
+        <!-- 让底部导航栏变半透明灰色，覆盖在Activity之上（默认false，activity会居于底部导航栏顶部），如果设为true，navigationBarColor 失效 -->
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <!--背景色是White而不是MainBack-->
+    <style name="whiteTheme" parent="Theme.Main">
+        <item name="android:windowBackground">@color/colorWhite</item>
+    </style>
+
+    <style name="Formit">
+        <item name="android:scrollbars">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <style name="Recycler" parent="Formit">
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

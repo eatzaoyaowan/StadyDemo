@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Main" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <!-- 应用的主要色调,actionBar默认使用该颜色，Toolbar导航栏的底色 -->
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimaryVariant">@color/colorWhite</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+        <!-- 一般控件的选中效果默认采用该颜色,如 CheckBox,RadioButton,SwitchCompat，ProcessBar等-->
+        <item name="colorAccent">@color/colorBlue</item>
+        <!-- 应用的主要暗色调,statusBarColor 默认使用该颜色 -->
+        <item name="colorPrimaryDark">@color/colorWhite</item>
+        <item name="android:textColorHighlight">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorFontLightGrey</item>
+        <item name="colorControlActivated">@color/colorWhite</item>
+        <item name="colorControlNormal">@color/colorGreyWhite</item>
+        <!-- 改变status bar 文字颜色， true黑色， false白色，API23可用-->
+        <item name="android:statusBarColor">@color/colorWhite</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/mainBack</item>
+        <!-- 控件按压时的色调-->
+        <item name="android:colorControlHighlight">@color/colorBlueAlpha</item>
+        <!-- 默认 Button,TextView的文字颜色 -->
+        <item name="android:textColor">@color/colorBlue</item>
+        <!-- 默认按钮的背景颜色 -->
+        <item name="android:colorButtonNormal">@color/colorBlue</item>
+        <!-- 控件选中时的颜色,默认使用colorAccent -->
+        <item name="android:colorControlActivated">@color/colorBlue</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
